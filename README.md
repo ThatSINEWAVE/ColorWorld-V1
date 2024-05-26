@@ -35,12 +35,6 @@ ColorWorld is a simple web application that allows users to explore colors in va
 3. Follow the on-screen instructions based on your selected option.
 4. Enjoy exploring colors!
 
-<div align="center">
-
-## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
-
-</div>
-
 ## Credits
 
 - [Yurace API](https://x-colors.yurace.pro/api) for color generation and conversion.
