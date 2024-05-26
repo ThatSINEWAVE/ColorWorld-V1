@@ -4,6 +4,8 @@
 
 ColorWorld is a simple web application that allows users to explore colors in various formats. Whether you're looking for a random color, a specific hue, or need to convert between different color formats, ColorWorld has got you covered.
 
+![ColorWorld](https://github.com/ThatSINEWAVE/ColorWorld/assets/133239148/23e44535-95a0-43f7-8543-19975fe858eb)
+
 </div>
 
 <div align="center">
