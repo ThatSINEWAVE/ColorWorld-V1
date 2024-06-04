@@ -1,6 +1,6 @@
 <div align="center">
 
-# [ColorWorld](https://thatsinewave.github.io/ColorWorld)
+# [ColorWorld V1](https://thatsinewave.github.io/ColorWorld)
 
 ColorWorld is a simple web application that allows users to explore colors in various formats. Whether you're looking for a random color, a specific hue, or need to convert between different color formats, ColorWorld has got you covered.
 
