@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorWorld</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="site-data/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="site-data/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="site-data/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="site-data/favicon-16x16.png">
+    <link rel="manifest" href="site-data/site.webmanifest">
+  </head>
+  <body>
+    <div class="container">
+      <h1>ColorWorld</h1>
+      <div class="options">
+        <button class="option-btn" data-option="random">Random Color</button>
+        <button class="option-btn" data-option="hue">Color by Hue</button>
+        <button class="option-btn" data-option="converter">Color Converter</button>
+      </div>
+      <div class="option-menu" id="random-menu">
+        <p>Get a random color in HEX, RGB, and HSL formats.</p>
+        <div class="color-display"></div>
+        <div class="color-codes">
+          <div class="color-code">
+            <span>HEX:</span>
+            <span class="hex-code"></span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <div class="color-code">
+            <span>RGB:</span>
+            <span class="rgb-code"></span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <div class="color-code">
+            <span>HSL:</span>
+            <span class="hsl-code"></span>
+            <button class="copy-btn">Copy</button>
+          </div>
+        </div>
+        <button class="back-btn">Back</button>
+      </div>
+      <div class="option-menu" id="hue-menu">
+        <p>Get a random color with a specific hue value.</p>
+        <input type="number" id="hue-input" placeholder="Enter hue value (0-359)">
+        <div class="color-display"></div>
+        <div class="color-codes">
+          <div class="color-code">
+            <span>HEX:</span>
+            <span class="hex-code"></span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <div class="color-code">
+            <span>RGB:</span>
+            <span class="rgb-code"></span>
+            <button class="copy-btn">Copy</button>
+          </div>
+          <div class="color-code">
+            <span>HSL:</span>
+            <span class="hsl-code"></span>
+            <button class="copy-btn">Copy</button>
+          </div>
+        </div>
+        <button class="back-btn">Back</button>
+      </div>
+      <div class="option-menu" id="converter-menu">
+        <p>Convert between HEX, RGB, and HSL color formats.</p>
+        <div class="converter-options">
+          <select id="converter-input-type">
+            <option value="hex">HEX</option>
+            <option value="rgb">RGB</option>
+            <option value="hsl">HSL</option>
+          </select>
+          <input type="text" id="converter-input" placeholder="Enter color value">
+          <select id="converter-output-type">
+            <option value="hex">HEX</option>
+            <option value="rgb">RGB</option>
+            <option value="hsl">HSL</option>
+          </select>
+        </div>
+        <div class="color-display"></div>
+        <div class="color-codes">
+          <div class="color-code">
+            <span>Result:</span>
+            <span class="result-code"></span>
+            <button class="copy-btn">Copy</button>
+          </div>
+        </div>
+        <button class="back-btn">Back</button>
+      </div>
+    </div>
+    <footer>
+      <a href="https://discord.com/invite/2nHHHBWNDw" target="_blank">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://ko-fi.com/thatsinewave" target="_blank">
+        <i class="fas fa-heart"></i>
+      </a>
+      <a href="https://github.com/ThatSINEWAVE/ShortenURLs" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
