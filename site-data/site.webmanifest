@@ -1,8 +1,8 @@
 {
-  "name": "ColorWorld by ThatSINEWAVE_",
+  "name": "ColorWorld-V1 by ThatSINEWAVE_",
   "description": "Random color generator",
-  "short_name": "ColorWorld",
-  "start_url": "/ColorWorld",
+  "short_name": "ColorWorld-V1",
+  "start_url": "/ColorWorld-V1",
   "orientation": "portrait",
   "lang": "en-US",
   "icons": [
